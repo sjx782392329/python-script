@@ -72,10 +72,10 @@ def write_excel(workbook, final_lists):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
-    table = xlrd.open_workbook("/Users/shenjinxin/Desktop/bottom_reasons.xlsx")
+    table = xlrd.open_workbook("/Users/user/Desktop/bottom_reasons.xlsx")
     read_sheet = table.sheet_by_name("sheet1")
 
-    write_workbook = xlsxwriter.Workbook("/Users/shenjinxin/Desktop/afterbottom_reasons.xlsx")
+    write_workbook = xlsxwriter.Workbook("/Users/user/Desktop/afterbottom_reasons.xlsx")
     # 创建一个名字为 test 的 excel
     write_workbook.add_worksheet("test")
 
