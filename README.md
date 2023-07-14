@@ -1,2 +1,2 @@
 # python-script
-用于记录 Python 脚本
+给蒋燕编写的 Python 脚本
